@@ -6,5 +6,6 @@ target 'MLCoreItemRecognition' do
   use_frameworks!
 
   # Pods for MLCoreItemRecognition
+	pod 'SnapKit', '~> 4.0.0'
 
 end

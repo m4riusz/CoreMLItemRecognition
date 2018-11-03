@@ -1,3 +1,5 @@
 Pods/
 Podfile.lock
 MLCoreItemRecognition.xcworkspace/
+MLCoreItemRecognition.xcodeproj/xcuserdata/**
+MLCoreItemRecognition.xcodeproj/xcuserdata
