@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F2DE12B218E1508004BC2A1 /* PermisionMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2DE12A218E1508004BC2A1 /* PermisionMaskView.swift */; };
 		6F502D53218E0FB500009F64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F502D52218E0FB500009F64 /* AppDelegate.swift */; };
-		6F502D55218E0FB500009F64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F502D54218E0FB500009F64 /* ViewController.swift */; };
 		6F502D58218E0FB500009F64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F502D56218E0FB500009F64 /* Main.storyboard */; };
 		6F502D5A218E0FB500009F64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F502D59218E0FB500009F64 /* Assets.xcassets */; };
 		6F502D5D218E0FB500009F64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F502D5B218E0FB500009F64 /* LaunchScreen.storyboard */; };
+		6F7B1A11218E3F5C0099CCD6 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6F7B1A0F218E3F170099CCD6 /* Resnet50.mlmodel */; };
+		6FAE2428218E23C900841178 /* ScreenCaptureContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAE2427218E23C900841178 /* ScreenCaptureContract.swift */; };
+		6FAE242A218E255400841178 /* ScreenCaptureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAE2429218E255400841178 /* ScreenCaptureController.swift */; };
+		6FAE242D218E266200841178 /* ScreenCapturePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAE242C218E266200841178 /* ScreenCapturePresenter.swift */; };
 		A76C1AC5F06A89D083534F87 /* Pods_MLCoreItemRecognition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B57261A51B312300730C63 /* Pods_MLCoreItemRecognition.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		25B57261A51B312300730C63 /* Pods_MLCoreItemRecognition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MLCoreItemRecognition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F2DE12A218E1508004BC2A1 /* PermisionMaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermisionMaskView.swift; sourceTree = "<group>"; };
 		6F502D4F218E0FB400009F64 /* MLCoreItemRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLCoreItemRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F502D52218E0FB500009F64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6F502D54218E0FB500009F64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6F502D57218E0FB500009F64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6F502D59218E0FB500009F64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F502D5C218E0FB500009F64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F502D5E218E0FB500009F64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F7B1A0F218E3F170099CCD6 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		6FAE2427218E23C900841178 /* ScreenCaptureContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenCaptureContract.swift; sourceTree = "<group>"; };
+		6FAE2429218E255400841178 /* ScreenCaptureController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenCaptureController.swift; sourceTree = "<group>"; };
+		6FAE242C218E266200841178 /* ScreenCapturePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenCapturePresenter.swift; sourceTree = "<group>"; };
 		75AC207C3E0587DBA578B18F /* Pods-MLCoreItemRecognition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLCoreItemRecognition.release.xcconfig"; path = "Pods/Target Support Files/Pods-MLCoreItemRecognition/Pods-MLCoreItemRecognition.release.xcconfig"; sourceTree = "<group>"; };
 		84DD50CF2192F39BC45E8D95 /* Pods-MLCoreItemRecognition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLCoreItemRecognition.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MLCoreItemRecognition/Pods-MLCoreItemRecognition.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -40,6 +48,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F2DE126218E1387004BC2A1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6F7B1A0F218E3F170099CCD6 /* Resnet50.mlmodel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6F2DE127218E13AA004BC2A1 /* ScreenCapture */ = {
+			isa = PBXGroup;
+			children = (
+				6FAE2427218E23C900841178 /* ScreenCaptureContract.swift */,
+				6FAE2429218E255400841178 /* ScreenCaptureController.swift */,
+				6FAE242C218E266200841178 /* ScreenCapturePresenter.swift */,
+				6F2DE12A218E1508004BC2A1 /* PermisionMaskView.swift */,
+			);
+			path = ScreenCapture;
+			sourceTree = "<group>";
+		};
 		6F502D46218E0FB400009F64 = {
 			isa = PBXGroup;
 			children = (
@@ -61,8 +88,9 @@
 		6F502D51218E0FB400009F64 /* MLCoreItemRecognition */ = {
 			isa = PBXGroup;
 			children = (
+				6F2DE127218E13AA004BC2A1 /* ScreenCapture */,
+				6F2DE126218E1387004BC2A1 /* Models */,
 				6F502D52218E0FB500009F64 /* AppDelegate.swift */,
-				6F502D54218E0FB500009F64 /* ViewController.swift */,
 				6F502D56218E0FB500009F64 /* Main.storyboard */,
 				6F502D59218E0FB500009F64 /* Assets.xcassets */,
 				6F502D5B218E0FB500009F64 /* LaunchScreen.storyboard */,
@@ -200,7 +228,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F502D55218E0FB500009F64 /* ViewController.swift in Sources */,
+				6F7B1A11218E3F5C0099CCD6 /* Resnet50.mlmodel in Sources */,
+				6FAE242D218E266200841178 /* ScreenCapturePresenter.swift in Sources */,
+				6FAE2428218E23C900841178 /* ScreenCaptureContract.swift in Sources */,
+				6F2DE12B218E1508004BC2A1 /* PermisionMaskView.swift in Sources */,
+				6FAE242A218E255400841178 /* ScreenCaptureController.swift in Sources */,
 				6F502D53218E0FB500009F64 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
