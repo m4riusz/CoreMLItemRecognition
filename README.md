@@ -1,4 +1,4 @@
 # CoreMLItemRecognition
 ## Basic item recognition using CoreML
-![Screenshot](sample.png)
+![Screenshot](sample.PNG)
 
