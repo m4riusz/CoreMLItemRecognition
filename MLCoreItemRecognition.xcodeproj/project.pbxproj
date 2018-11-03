@@ -12,9 +12,11 @@
 		6F502D58218E0FB500009F64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F502D56218E0FB500009F64 /* Main.storyboard */; };
 		6F502D5A218E0FB500009F64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F502D59218E0FB500009F64 /* Assets.xcassets */; };
 		6F502D5D218E0FB500009F64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F502D5B218E0FB500009F64 /* LaunchScreen.storyboard */; };
+		A76C1AC5F06A89D083534F87 /* Pods_MLCoreItemRecognition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B57261A51B312300730C63 /* Pods_MLCoreItemRecognition.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25B57261A51B312300730C63 /* Pods_MLCoreItemRecognition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MLCoreItemRecognition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F502D4F218E0FB400009F64 /* MLCoreItemRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLCoreItemRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F502D52218E0FB500009F64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F502D54218E0FB500009F64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		6F502D59218E0FB500009F64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F502D5C218E0FB500009F64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F502D5E218E0FB500009F64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75AC207C3E0587DBA578B18F /* Pods-MLCoreItemRecognition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLCoreItemRecognition.release.xcconfig"; path = "Pods/Target Support Files/Pods-MLCoreItemRecognition/Pods-MLCoreItemRecognition.release.xcconfig"; sourceTree = "<group>"; };
+		84DD50CF2192F39BC45E8D95 /* Pods-MLCoreItemRecognition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLCoreItemRecognition.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MLCoreItemRecognition/Pods-MLCoreItemRecognition.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A76C1AC5F06A89D083534F87 /* Pods_MLCoreItemRecognition.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				6F502D51218E0FB400009F64 /* MLCoreItemRecognition */,
 				6F502D50218E0FB400009F64 /* Products */,
+				F8DD9C14729B47FC9672932F /* Pods */,
+				79AFA6FEF208A38213DFC480 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,23 @@
 			path = MLCoreItemRecognition;
 			sourceTree = "<group>";
 		};
+		79AFA6FEF208A38213DFC480 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25B57261A51B312300730C63 /* Pods_MLCoreItemRecognition.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8DD9C14729B47FC9672932F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84DD50CF2192F39BC45E8D95 /* Pods-MLCoreItemRecognition.debug.xcconfig */,
+				75AC207C3E0587DBA578B18F /* Pods-MLCoreItemRecognition.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,6 +95,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F502D61218E0FB500009F64 /* Build configuration list for PBXNativeTarget "MLCoreItemRecognition" */;
 			buildPhases = (
+				13A4E50E6550CA7E1DDE2CED /* [CP] Check Pods Manifest.lock */,
 				6F502D4B218E0FB400009F64 /* Sources */,
 				6F502D4C218E0FB400009F64 /* Frameworks */,
 				6F502D4D218E0FB400009F64 /* Resources */,
@@ -129,6 +154,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13A4E50E6550CA7E1DDE2CED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MLCoreItemRecognition-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6F502D4B218E0FB400009F64 /* Sources */ = {
@@ -280,6 +326,7 @@
 		};
 		6F502D62218E0FB500009F64 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84DD50CF2192F39BC45E8D95 /* Pods-MLCoreItemRecognition.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +345,7 @@
 		};
 		6F502D63218E0FB500009F64 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75AC207C3E0587DBA578B18F /* Pods-MLCoreItemRecognition.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
